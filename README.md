@@ -1,77 +1,65 @@
-#  Vendor Performance Analysis
-###  Project Overview
+📊 Vendor Performance Analysis
+📌 Project Overview
 
-This project analyzes vendor performance by building an end-to-end data project from raw data ingestion to business intelligence reporting.
+This project analyzes vendor performance by building a structured data pipeline from raw data ingestion to business insights and dashboarding.
 
-### The goal is to evaluate:
+The objective is to evaluate:
 
-### Vendor profitability
-  Sales performance
-  Inventory efficiency
-  Pricing strategies
-  Procurement optimization
-###  Project Workflow
-  Data Ingestion → Exploratory Data Analysis → Data Transformation & Analysis → Power BI Dashboard
-  Tech Stack
-  Python: Pandas, NumPy, Matplotlib, Seaborn
-  SQL Server: T-SQL (Joins, Aggregations, CTEs)
-  SQLAlchemy 
-  Power BI
-###  Project Breakdown
-### 1️ Data Ingestion
-  Loaded multiple CSV files into SQL Server
-  Automatically created tables from file names
-  Built a scalable ingestion pipeline for structured data
-### 2️ Exploratory Data Analysis (EDA)
-  Analyzed data distributions and summary statistics
-  Identified:
-  Missing values
-  Outliers
-  Negative profit cases
-  Unsold inventory (zero sales)
-  Built a central analytical table (summary_table)
-  Created key business metrics:
-  Gross Profit
-  Profit Margin (%)
-  Stock Turnover
-  Sales-to-Purchase Ratio
-  Stored processed data in SQL for efficient querying and reporting
-### 3️ Data Analysis
-  Integrated multiple datasets:
-  Purchases
-  Sales
-  Vendor invoices (freight)
-  Purchase prices
+Vendor profitability
+Sales performance
+Inventory efficiency
+Pricing strategies
+Procurement effectiveness
+🔄 Project Workflow
 
-###  Business Problems Solved
-###  Low Sales but High Profit Products
-  Identified products with high margins but low sales
-  Suggested opportunity for targeted promotions
-###  Top Vendors & Brands
-  Ranked vendors and products based on total sales
-  Identified key revenue contributors
-###  Vendor Contribution Analysis
-  Calculated each vendor’s contribution to total procurement
-  Highlighted top-performing vendors
-###  Bulk Purchasing Impact
-  Analyzed relationship between order size and unit price
-  Found that larger orders significantly reduce cost per unit
-###  Inventory Efficiency
-  Identified vendors with low stock turnover
-  Indicated slow-moving or excess inventory
-###  Capital Locked in Inventory
-  Measured unsold inventory value per vendor
-  Highlighted vendors contributing most to tied-up capital
-###  Key Insights
-  High-margin products are underperforming in sales → promotion opportunity
-  Bulk purchasing significantly reduces unit cost
-  Some vendors maintain excess inventory → inefficiency
-  Freight costs vary widely → scope for optimization
-  A small group of vendors drives most procurement
-###  Power BI Dashboard
-  Built on top of the processed summary_table
-  Provides:
-  Vendor performance analysis
-  Profitability tracking
-  Inventory insights
-  Sales trends
+Data Ingestion → Data Cleaning & Feature Engineering → Business Analysis → Power BI Dashboard
+
+⚙️ Tech Stack
+Python: Pandas, NumPy, Seaborn, Matplotlib
+SQL Server: T-SQL (Joins, Aggregations, CTEs)
+SQLAlchemy + PyODBC
+Power BI
+🏗️ Project Breakdown
+1️⃣ Data Ingestion
+Loaded multiple CSV files into SQL Server
+Automated table creation based on file names
+Designed a scalable ingestion pipeline
+2️⃣ Data Cleaning & Feature Engineering (EDA Phase)
+Integrated multiple datasets:
+Purchases
+Sales
+Vendor invoices (freight)
+Purchase prices
+Built a central analytical table (summary_table)
+Performed:
+Data cleaning (null handling, datatype fixes)
+Outlier detection
+Data consistency checks
+Created key business metrics:
+Gross Profit
+Profit Margin (%)
+Stock Turnover
+Sales-to-Purchase Ratio
+Stored processed data in SQL for efficient querying
+3️⃣ Business Analysis & Visualization
+Performed analysis using Seaborn and Matplotlib
+Key Analyses:
+Identified low-sales but high-profit products
+Ranked top vendors and brands
+Measured vendor contribution to procurement
+Analyzed impact of bulk purchasing on pricing
+Detected low inventory turnover
+Calculated capital locked in unsold inventory
+📈 Key Insights
+High-margin products have low sales → promotion opportunity
+Bulk purchasing reduces unit cost significantly
+Some vendors hold excess inventory
+Freight cost variability indicates inefficiencies
+Few vendors dominate procurement
+📊 Power BI Dashboard
+Built using summary_table
+Provides:
+Vendor performance insights
+Profitability tracking
+Inventory analysis
+Sales trends
