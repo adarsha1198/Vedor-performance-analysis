@@ -6,8 +6,8 @@ This project analyzes vendor performance by building an end-to-end data project 
 ### The goal is to evaluate:
 
 ### Vendor profitability
-  /n Sales performance
-  /n Inventory efficiency
+  Sales performance
+  Inventory efficiency
   Pricing strategies
   Procurement optimization
 ###  Project Workflow
