@@ -26,12 +26,12 @@ Automated table creation based on file names
 Designed a scalable ingestion pipeline  
 ### 2️ Data Cleaning & Feature Engineering (EDA Phase)
 Integrated multiple datasets:    
-Purchases  
-Sales 
-Begin inventory  
-end inventory  
-Vendor invoices (freight)  
-Purchase prices  
+*Purchases      
+*Sales     
+*Begin inventory  
+*end inventory  
+*Vendor invoices (freight)  
+*Purchase prices  
 Built a central analytical table (summary_table)  
 Performed:   
 Data cleaning (null handling, datatype fixes)   
