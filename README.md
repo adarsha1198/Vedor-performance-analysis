@@ -1,9 +1,9 @@
-## 📊 Vendor Performance Analysis
-## 📌 Project Overview
+##  Vendor Performance Analysis
+##  Project Overview
 
-This project analyzes vendor performance by building an end-to-end data pipeline from raw data ingestion to business intelligence reporting.
+This project analyzes vendor performance by building an end-to-end data project from raw data ingestion to business intelligence reporting.
 
-The goal is to evaluate:
+# The goal is to evaluate:
 
 ## Vendor profitability
 Sales performance
