@@ -1,4 +1,4 @@
-Note: Dataset is hosted externally due to size constraints.[Access raw data used in this project](https://drive.google.com/drive/folders/1AYgk6MmTGYJSGhal3hfwkyGzHkSdwc_T?usp=sharing)    
+Note: Dataset is hosted externally due to size constraints.  [Access raw data used in this project](https://drive.google.com/drive/folders/1AYgk6MmTGYJSGhal3hfwkyGzHkSdwc_T?usp=sharing)    
 #  Vendor Performance Analysis | End-to-End Business Intelligence Project
 
 ##  Overview
